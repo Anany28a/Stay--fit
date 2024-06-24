@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Testimonial.css';
-import { testimonialsData } from '../../data/testimonialData';
+import { testimonialsData } from '../../data/testimonialsData';
 import leftArrow from '../../assets/leftArrow.png';
 import rightArrow from '../../assets/rightArrow.png';
 import { motion } from 'framer-motion';

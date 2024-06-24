@@ -18,7 +18,7 @@
 {
     flex: 1;
     position: relative;
-    background-color: orange;
+    background-color: orangered;
 
 }
 .the-best-ad
@@ -40,7 +40,7 @@
 }
 .the-best-ad>div{
     position: absolute;
-    background-color:var(--orange);
+    background-color:orangered;
     width: 5.4rem;
     height: 80%;
     left: 8px;
@@ -101,7 +101,7 @@
 .hero-button>:nth-child(1)
 {
     color:white;
-    background-color: var(--orange);
+    background-color: orangered;
     width: 8rem;
 }
 
@@ -110,7 +110,7 @@
     color:white;
     background-color: transparent;
     width: 8rem;
-    border: 2px solid var(--orange);
+    border: 2px solid orangered;
 }
 
 .rightside>.btn
@@ -122,41 +122,9 @@
 
 }
 
-.heart-rate
-{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    background-color: grey;
-    width: 5rem;
-    height: 8rem;
-    padding: 1rem;
-    align-items: start;
-    border-radius: 0.5rem;
-    position: absolute;
-    right: 4rem;
-    top: 7rem;
-    border: 1px solid #4f4d4d;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.heart-rate>img{
-    width:2rem;
-}
 
-.heart-rate span
-{
-   color: #ffffff;
-}
 
-.heart-rate span:first-child {
-    display: flex;
-    align-items: center;
-}
 
-.heart-rate span:last-child {
-    color: #000000; /* Black text color for bpm */
-    font-weight: bold; /* Make bpm text bold */
-}
 
 .hero-image
 {
@@ -187,7 +155,7 @@
     position: absolute;
     width: fit-content;
     top:32rem;
-    right:28rem;
+    right:32rem;
 }
 
 .calories>img{

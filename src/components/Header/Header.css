@@ -24,7 +24,7 @@
 
 .header-menu>li:hover
 {
-    color: var(--orange);
+    color: orangered;
     cursor: pointer;
 }
 
@@ -39,7 +39,7 @@
 
     .header-menu{
         flex-direction: column;
-        background-color: var(--orange);
+        background-color: orangered;
         padding: 2rem;
     }
 }

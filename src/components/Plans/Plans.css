@@ -7,6 +7,17 @@
     gap: 4rem;
     position: relative;
 }
+.programs-header
+{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
 .blur-p-1{
     width: 32rem;
     height: 23rem;
@@ -38,15 +49,15 @@
     width: 15rem;
 }
 
-.plan>:nth-child(2)
+.plan:nth-child(2)
 {
-    background-color: var(--planCard);
+    background-color: orangered;
     transform: scale(1.1);
    
 }
 
 .plan>svg{
-    fill:var(--orange);
+    fill:orangered;
     width: 2rem;
     height: 2rem;
 
@@ -97,9 +108,9 @@
 
 }
 
-.plan>:nth-child(2)>button
+.plans>:nth-child(2)>button
 {
-    color: orange;
+    color: orangered;
 }
 @media screen and (max-width:768px)
 {

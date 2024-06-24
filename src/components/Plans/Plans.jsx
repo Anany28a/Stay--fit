@@ -8,7 +8,7 @@ const Plans = () => {
     <div className='plans-container'>
       <div className=' blur blur-p-1'></div>
       <div className=' blur blur-p-2'></div>
-      <div className='programs-header' style={{ gap: '3rem' }}>
+      <div className='programs-header' style={{ gap: '2rem' }}>
         <span className='stroke-text'>READY TO START</span>
         <span>YOUR JOURNEY</span>
         <span className='stroke-text'>WITH US</span>
@@ -17,7 +17,7 @@ const Plans = () => {
       <div className='plans'>
         {plansData.map((plan, index) => (
           <div className='plan' key={index}>
-            <img src={plan.icon} alt='' /> {/* Assuming plan.icon is a valid image path */}
+          {plan.icon}{/* Assuming plan.icon is a valid image path */}
             <span>{plan.name}</span>
             <span>${plan.price}</span>
 

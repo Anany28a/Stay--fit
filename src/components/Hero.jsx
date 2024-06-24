@@ -2,9 +2,9 @@ import React from 'react';
 import './Hero.css';
 import Header from './Header/Header';
 import heroImageBack from '../assets/hero_image_back.png';
-import heartImage from '../assets/heart.png';
+
 import caloriesImage from '../assets/calories.png';
-import heroImage from '../assets/hero_image.png';
+import heroImage from '../assets/front_image.png';
 import { motion } from 'framer-motion';
 import NumberCounter from 'number-counter';
 
@@ -65,16 +65,14 @@ const Hero = () => {
             <div className='rightside'>
                 <button className="btn">Join Now</button>
 
-                {/* Heart rate section */}
+                
                 <motion.div
                     className='heart-rate'
                     initial={{ right: "-1rem" }}
                     whileInView={{ right: "4rem" }}
                     transition={transition}
                 >
-                    <img src={heartImage} alt="" />
-                    <span>Heart Rate</span>
-                    <span> 116 bpm</span>
+                   
                 </motion.div>
 
                 {/* Hero images */}

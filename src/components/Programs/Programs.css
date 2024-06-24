@@ -63,7 +63,7 @@
 }
 
 .category:hover{
-    background: var(--planCard);
+    background: orangered;
     cursor:pointer;
 }
 
